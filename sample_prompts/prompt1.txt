@@ -2,3 +2,18 @@ Task: Write a motivational speech about hard work.
 Success Criteria: The speech should be inspiring.
 Success Criteria: The speech should be inspiring. Be inspiring. Be inspiring.
 Examples: A student preparing for exams.
+
+
+# FIXES APPLIED:
+remove duplicate success criteria
+remove repetitive phrases such as 'Be inspiring.'
+provide more specific guidance on the tone, length, and content of the speech
+provide more diverse and detailed examples of the target audience, such as professionals, athletes, or entrepreneurs
+
+# FIXES APPLIED:
+Remove duplicate success criteria to avoid repetition
+Remove repetitive phrases such as 'Be inspiring.' to improve clarity
+Provide more specific guidance on the tone, length, and content of the speech to ensure clarity
+Provide more diverse and detailed examples of the target audience, such as professionals, athletes, or entrepreneurs to increase relevance
+
+Guidance: Use Chain of Thought reasoning for complex steps.

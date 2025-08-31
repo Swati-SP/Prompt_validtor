@@ -1,3 +1,16 @@
 Task: Explain how an ATM works.
 Success Criteria: Must describe the steps clearly.
 Examples: A customer withdrawing money.
+
+
+# FIXES APPLIED:
+Define the scope of the explanation, e.g., hardware, software, or user interaction
+Provide more detailed criteria, e.g., include key components or processes to be described
+Include additional examples, such as depositing money or checking account balance, to demonstrate a fuller understanding of ATM functionality
+
+# FIXES APPLIED:
+Define the scope of the explanation, e.g., hardware, software, or user interaction
+Provide more detailed criteria, e.g., include key components or processes to be described
+Include additional examples, such as depositing money or checking account balance, to demonstrate a fuller understanding of ATM functionality
+
+Guidance: Use Chain of Thought reasoning for complex steps.

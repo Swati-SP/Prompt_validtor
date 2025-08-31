@@ -5,11 +5,12 @@ from prompt_validator.report import print_report, save_json_report
 def main(
     path: str = typer.Option(..., "--path", "-p", help="Path to the folder with prompt .txt files"),
     json_output: bool = typer.Option(False, "--json-output", "-j", help="Save results to report.json"),
+    fix: bool = typer.Option(False, "--fix", help="Auto-update prompt files with corrections"),
 ):
     """Validate all prompt files in a directory."""
     typer.echo(f"📂 Validating prompts in: {path}")
 
-    results = validate_directory(path)
+    results = validate_directory(path, fix=fix)
 
     if json_output:
         save_json_report(results)

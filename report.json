@@ -1,74 +1,38 @@
-{
-  "prompt1.txt": [
-    {
-      "issue": "repeated_success_criteria",
-      "suggestion": "remove duplicate success criteria"
-    },
-    {
-      "issue": "success_criteria_lack_specificity",
-      "suggestion": "provide more specific and measurable success criteria"
-    },
-    {
-      "issue": "repetitive_phrasing",
-      "suggestion": "remove repetitive phrases such as 'Be inspiring'"
-    },
-    {
-      "issue": "examples_lack_diversity",
-      "suggestion": "provide a range of examples to illustrate the concept of hard work"
-    }
-  ],
-  "prompt2.txt": [
-    {
-      "issue": "Conflicting success criteria",
-      "suggestion": "Remove or reconcile the conflicting success criteria regarding response length"
-    },
-    {
-      "issue": "Unclear example purpose",
-      "suggestion": "Clarify how the example of explaining benefits of 8 hours of sleep relates to the overall task"
-    },
-    {
-      "issue": "Inconsistent success criteria formatting",
-      "suggestion": "Combine duplicate success criteria into a single statement or rephrase for clarity"
-    }
-  ],
-  "prompt3.txt": [
-    {
-      "issue": "Lack of specificity",
-      "suggestion": "Define the scope of the explanation, e.g., focus on the technical or user aspects of an ATM"
-    },
-    {
-      "issue": "Vagueness in success criteria",
-      "suggestion": "Quantify the clarity of steps, e.g., 'Must describe the steps in 5 concise points'"
-    },
-    {
-      "issue": "Limited examples",
-      "suggestion": "Provide additional examples, e.g., 'A customer depositing money, checking balance, or transferring funds'"
-    },
-    {
-      "issue": "No clear constraints",
-      "suggestion": "Specify any constraints, e.g., 'Assume the ATM is a standard bank ATM, not a cryptocurrency ATM'"
-    },
-    {
-      "issue": "No clear audience",
-      "suggestion": "Define the target audience, e.g., 'Explain to a general audience with basic technical knowledge'"
-    }
-  ],
-  "prompt4.txt": [
-    {
-      "issue": "Includes personal contact information",
-      "suggestion": "Remove personal contact information for privacy and security reasons"
-    },
-    {
-      "issue": "Lacks specific meeting details",
-      "suggestion": "Add meeting date, time, location, and purpose to the email draft"
-    },
-    {
-      "issue": "Does not provide a clear call to action",
-      "suggestion": "Specify how team members should respond to the meeting invitation"
-    },
-    {
-      "issue": "Examples are not clearly defined",
-      "suggestion": "Provide a clear and concise example of a meeting invitation email that meets the success criteria"
-    }
-  ]
-}
+[
+  {
+    "file": "prompt1.txt",
+    "issues": [
+      {
+        "issue": "ParsingError",
+        "suggestion": "To create a motivational speech about hard work that is inspiring, let's break down the task into manageable steps and apply Chain of Thought reasoning for complex steps.\n\n1. **Define the Objective**: The primary goal is to inspire the audience to embrace hard work as a crucial element for achieving success. This involves understanding the value of persistence, dedication, and the rewards that come from effort.\n\n2. **Identify the Audience**: The speech should be tailored to resonate with a specific group. Examples include:\n   - Students preparing for exams, who need motivation to study diligently.\n   - Professionals aiming for a promotion, who must understand the importance of going the extra mile.\n   - Athletes training for a competition, for whom hard work and perseverance are key to victory.\n   - Entrepreneurs launching a startup, who face numerous challenges that require relentless effort to overcome.\n\n3. **Determine the Tone**: The tone should be uplifting and encouraging, with a touch of realism. It's essential to acknowledge the challenges of hard work while emphasizing its benefits and the sense of fulfillment it brings.\n\n4. **Establish the Length and Content**: The speech should be concise, ideally between 5 to 15 minutes, depending on the context and audience. The content should include:\n   - An engaging introduction that sets the tone and grabs the audience's attention.\n   - Personal anecdotes or examples of individuals who have achieved success through hard work.\n   - Practical advice on how to incorporate hard work into daily life, such as setting goals, creating schedules, and maintaining motivation.\n   - A compelling conclusion that leaves the audience inspired and motivated to adopt a hard work ethic.\n\n5. **Craft the Speech**:\n   - **Introduction**: Start with a powerful quote or a personal story that highlights the impact of hard work.\n   - **Body**: Share stories of success, discuss strategies for overcoming obstacles, and provide tips for staying motivated.\n   - **Conclusion**: Summarize the key points, reiterate the importance of hard work, and end with a call to action that inspires the audience to embark on their journey to success.\n\n6. **Deliver the Speech**: Practice the speech to ensure it is delivered confidently and passionately. Engage with the audience through eye contact, gestures, and pauses to emphasize key points.\n\n7. **Feedback and Improvement**: After delivering the speech, seek feedback from the audience or peers. Use this feedback to refine the speech, making it more effective for future deliveries.\n\nBy following these steps and applying Chain of Thought reasoning, the motivational speech about hard work will not only be inspiring but also tailored to the specific needs and aspirations of the target audience, whether they are students, professionals, athletes, or entrepreneurs."
+      }
+    ]
+  },
+  {
+    "file": "prompt2.txt",
+    "issues": [
+      {
+        "issue": "ParsingError",
+        "suggestion": "Given the conflicting success criteria of the original prompt, which demands both a 3000-word blog and a concise response, it's necessary to reconcile these requirements. To address this, we will prioritize clarity and specificity while aiming for a comprehensive, yet focused, approach.\n\n### Reconciling Success Criteria\n- **Word Count vs. Conciseness**: Given the vast difference between the requirements for length (3000 words) and conciseness (very short and concise), we will aim for a detailed, informative piece that, while comprehensive, is also well-structured and easy to follow. The emphasis on conciseness within the larger word count suggests focusing on clear, direct language and avoiding unnecessary elaboration.\n\n### Tone and Audience\n- **Tone**: The blog will adopt an **informative tone**, aiming to educate the reader about the importance of sleep without being overly persuasive or too casual. This tone is suitable for conveying scientific information and health benefits in a clear, accessible manner.\n- **Target Audience**: The **general public** is the target audience, with a focus on individuals interested in health and wellness. This includes anyone looking to understand the importance of sleep for their overall well-being, from students to working professionals and retirees.\n\n### Benefits of 8 Hours of Sleep\nExplaining the benefits of 8 hours of sleep will include discussing:\n- **Physical Health**: How adequate sleep supports the immune system, cardiovascular health, and weight management.\n- **Mental Health**: The role of sleep in reducing stress, anxiety, and depression, and in improving mood and cognitive function.\n- **Cognitive Function**: How sleep affects concentration, memory, and problem-solving abilities.\n- **Longevity and Quality of Life**: The impact of consistent, quality sleep on life expectancy and the ability to enjoy daily activities.\n\n### Suggested Outline\n1. **Introduction** (approx. 100 words)\n   - Brief overview of sleep's importance\n   - Thesis statement: Adequate sleep, particularly 8 hours, is crucial for physical and mental health, cognitive function, and overall quality of life.\n\n2. **Physical Health Benefits** (approx. 500 words)\n   - Immune system support\n   - Cardiovascular health\n   - Weight management\n\n3. **Mental Health and Cognitive Function** (approx. 500 words)\n   - Stress, anxiety, and depression\n   - Mood and cognitive function improvement\n\n4. **Longevity and Quality of Life** (approx. 500 words)\n   - Impact on life expectancy\n   - Ability to enjoy daily activities\n\n5. **Tips for Achieving 8 Hours of Sleep** (approx. 500 words)\n   - Establishing a bedtime routine\n   - Creating a sleep-conducive environment\n   - Avoiding caffeine and electronics before bedtime\n\n6. **Conclusion** (approx. 100 words)\n   - Recap of the importance of 8 hours of sleep\n   - Final thoughts: Encouragement to prioritize sleep for a healthier, happier life.\n\nThis outline provides a structure for a comprehensive blog that meets the criteria of being informative, focused on the general public, and detailing the benefits of 8 hours of sleep, all within a clear and concise framework that respects the need for both detail and brevity."
+      }
+    ]
+  },
+  {
+    "file": "prompt3.txt",
+    "issues": [
+      {
+        "issue": "ParsingError",
+        "suggestion": "To explain how an ATM works, we will focus on the user interaction, hardware, and software components. The success criteria for this explanation include describing the steps clearly, including key components such as the card reader, keypad, display screen, and cash dispenser, as well as the processes involved in various transactions like withdrawals, deposits, and balance inquiries.\n\nHere's a step-by-step explanation of how an ATM works, using the example of a customer withdrawing money:\n\n1. **Initialization**: The customer approaches the ATM and inserts their card into the card reader. The card reader scans the magnetic stripe or chip on the card to read the account information.\n2. **Authentication**: The customer enters their PIN on the keypad, which is then verified by the ATM's software against the information stored on the card or in the bank's database. If the PIN is correct, the customer is granted access to their account.\n3. **Transaction Selection**: The customer selects the type of transaction they want to perform, such as withdrawing money, depositing money, or checking their account balance. For this example, we'll focus on withdrawing money.\n4. **Account Selection**: If the customer has multiple accounts linked to their card, they may be prompted to select which account they want to withdraw from.\n5. **Amount Entry**: The customer enters the amount they want to withdraw using the keypad. The ATM's software checks if the customer has sufficient funds in their account and if the withdrawal amount is within the daily limit.\n6. **Cash Dispensing**: If the transaction is approved, the ATM's cash dispenser is activated, and the requested amount of cash is dispensed to the customer.\n7. **Receipt Printing**: The ATM prints a receipt for the customer, detailing the transaction amount, account balance, and any other relevant information.\n8. **Card Return**: The customer's card is returned to them, and the transaction is complete.\n\nAdditional examples of ATM functionality include:\n\n* **Depositing Money**: The customer inserts their card, selects the deposit option, and enters the amount they want to deposit. They then insert the cash or checks into the deposit slot, and the ATM's software updates their account balance accordingly.\n* **Checking Account Balance**: The customer inserts their card, selects the balance inquiry option, and the ATM's software displays their current account balance on the screen.\n\nUsing Chain of Thought reasoning for complex steps, we can break down the cash dispensing process as follows:\n\n* The ATM's software sends a signal to the cash dispenser to release the requested amount of cash.\n* The cash dispenser, which consists of a series of cash cassettes, selects the appropriate cassette containing the desired denomination of bills.\n* The cash cassette is then activated, and the bills are counted and dispensed to the customer through the cash outlet.\n* The ATM's software updates the customer's account balance in real-time, reflecting the withdrawal amount.\n\nBy following these steps and including key components and processes, we can demonstrate a clear understanding of how an ATM works and provide a comprehensive explanation of its functionality."
+      }
+    ]
+  },
+  {
+    "file": "prompt4.txt",
+    "issues": [
+      {
+        "issue": "ParsingError",
+        "suggestion": "To draft an email for inviting team members to a meeting, we will follow a structured approach to ensure the email is polite, formal, and includes all necessary details.\n\n1. **Introduction and Purpose**: Start by clearly stating the purpose of the meeting. This could be a project update, a discussion on a new initiative, or any other relevant topic.\n\n2. **Meeting Details**: Provide specific details about the meeting, including:\n   - **Date**: The day of the week and the date of the meeting.\n   - **Time**: The start and end time of the meeting.\n   - **Location**: The venue of the meeting, which could be a physical location or a virtual meeting link.\n   - **Duration**: If not already implied by the start and end times, mention how long the meeting is expected to last.\n\n3. **Call to Action**: Include a clear call to action, such as requesting team members to RSVP by a certain date or to confirm their attendance. This helps in planning and ensures an accurate headcount for arrangements like seating, refreshments, or virtual meeting capacity.\n\n4. **Additional Information**: Depending on the nature of the meeting, you might need to include additional information, such as:\n   - **Agenda**: A brief overview of what will be discussed during the meeting.\n   - **Pre-meeting Preparation**: Any materials that attendees need to review or prepare before the meeting.\n   - **Contact for Questions**: A point of contact for any questions or concerns team members might have before the meeting.\n\n5. **Closing**: End the email with a polite closing, thanking the team members for their time and looking forward to seeing them at the meeting.\n\nHere's a sample email that incorporates these elements:\n\nSubject: Invitation to Project Update Meeting\n\nDear Team,\n\nI am writing to invite you to a meeting to discuss the current status and future plans for our ongoing project. This meeting is crucial as it will outline the progress made so far, address any challenges we are facing, and align our efforts towards the project's objectives.\n\nThe meeting details are as follows:\n- Date: [Insert Date, e.g., Thursday, March 16, 2023]\n- Time: [Insert Time, e.g., 2:00 PM - 4:00 PM]\n- Location: [Insert Location or Virtual Meeting Link]\n- Duration: The meeting is expected to last for 2 hours.\n\nTo ensure we have an accurate count for arrangements, please RSVP to this email by [Insert RSVP Deadline, e.g., March 14, 2023], confirming your attendance. If you have any dietary restrictions or special requests, kindly let us know in your response.\n\nIn preparation for the meeting, please review the latest project report, which will be shared with you separately. If you have any questions or topics you would like to add to the agenda, do not hesitate to reach out.\n\nThank you for your time, and I look forward to seeing you all at the meeting.\n\nBest regards,\n\n[Your Name]\n\nThis approach ensures that the email is comprehensive, polite, and formal, providing all necessary information for team members to prepare for and attend the meeting."
+      }
+    ]
+  }
+]

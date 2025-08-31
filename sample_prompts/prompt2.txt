@@ -2,3 +2,20 @@ Task: Write a blog about the importance of sleep.
 Success Criteria: The blog must be exactly 3000 words long.
 Success Criteria: Keep the response very short and concise.
 Examples: Explain benefits of 8 hours of sleep.
+
+
+# FIXES APPLIED:
+Remove or reconcile conflicting success criteria (word count vs. conciseness)
+Specify the tone of the blog (e.g., formal, informal, persuasive, informative)
+Define the target audience for the blog (e.g., general public, health professionals, students)
+Provide more examples or clarify what specific benefits of 8 hours of sleep should be explained
+Provide a suggested outline or structure for the blog to help guide the content
+
+# FIXES APPLIED:
+Reconcile word count requirement with conciseness requirement
+Specify the tone of the blog, e.g., formal, informal, persuasive, informative
+Define the target audience, e.g., general public, health professionals, students
+Provide more examples or clarify the specific benefits of 8 hours of sleep to explain
+Provide a suggested outline or structure for the blog to guide the content
+
+Guidance: Use Chain of Thought reasoning for complex steps.
