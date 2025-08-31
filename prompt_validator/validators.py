@@ -28,7 +28,7 @@ def check_prompt(text: str):
             "suggestion": "Add 'Success Criteria:' to define measurable goals."
         })
 
-    #  Rule 3: Check if "Examples" are present
+    # Rule 3: Check if "Examples" are present
     if "Examples:" not in text:
         issues.append({
             "issue": "Missing Examples",
@@ -43,21 +43,38 @@ def check_prompt(text: str):
         })
 
     # Rule 5: Check for CoT/TOT (Chain of Thought / Tree of Thought)
-    if any(keyword in text.lower() for keyword in ["reason step by step", "chain of thought", "tree of thought"]):
-        pass  # Already present
-    else:
+    if not any(keyword in text.lower() for keyword in ["reason step by step", "chain of thought", "tree of thought"]):
         issues.append({
             "issue": "Missing CoT/TOT guidance",
             "suggestion": "For complex reasoning, include 'Chain of Thought' or 'Tree of Thought' guidance."
         })
 
-    #  Call LLM to analyze semantic issues like redundancy/conflicts
-    prompt = f"Here is the prompt:\n\n{text}\n\nCheck for redundancy, conflicts, clarity, specificity, and missing parts."
+    # --- Call LLM to analyze semantic issues ---
+    prompt = f"""
+You are a strict JSON validator. Analyze the following prompt:
+
+{text}
+
+Return ONLY a valid JSON list of objects. 
+Each object must have two fields: "issue" and "suggestion".
+Example:
+[
+  {{
+    "issue": "Redundancy",
+    "suggestion": "Remove duplicate success criteria."
+  }}
+]
+
+Do not include explanations, markdown, or extra text.
+"""
     response = llm.invoke(prompt)
     content = response.content.strip()
 
-    # Clean JSON if LLM wraps in ```json
+    # Try to extract JSON only (if model added extra text)
     content = re.sub(r"^```json|```$", "", content, flags=re.MULTILINE).strip()
+    content = re.search(r"\[.*\]", content, flags=re.DOTALL)
+    if content:
+        content = content.group(0)
 
     try:
         model_issues = json.loads(content)
@@ -65,7 +82,7 @@ def check_prompt(text: str):
     except Exception:
         issues.append({
             "issue": "ParsingError",
-            "suggestion": content
+            "suggestion": response.content.strip()
         })
 
     return issues
