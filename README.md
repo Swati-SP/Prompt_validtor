@@ -32,7 +32,7 @@ Features:-
 
 ⚙️ Installation
 1. Clone the repository
-git clone https://github.com/your-username/prompt-validator.git
+git clone https://github.com/Swati-SP/Prompt_validtor.git
 cd prompt-validator
 
 2. Create and activate a virtual environment
