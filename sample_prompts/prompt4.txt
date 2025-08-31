@@ -1,0 +1,4 @@
+Task: Draft an email for inviting team members to a meeting.
+Success Criteria: Must be polite and formal.
+Examples: Meeting on project updates.
+Contact me at john.doe@gmail.com or call +91-9876543210

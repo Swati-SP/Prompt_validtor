@@ -1,0 +1,74 @@
+{
+  "prompt1.txt": [
+    {
+      "issue": "repeated_success_criteria",
+      "suggestion": "remove duplicate success criteria"
+    },
+    {
+      "issue": "success_criteria_lack_specificity",
+      "suggestion": "provide more specific and measurable success criteria"
+    },
+    {
+      "issue": "repetitive_phrasing",
+      "suggestion": "remove repetitive phrases such as 'Be inspiring'"
+    },
+    {
+      "issue": "examples_lack_diversity",
+      "suggestion": "provide a range of examples to illustrate the concept of hard work"
+    }
+  ],
+  "prompt2.txt": [
+    {
+      "issue": "Conflicting success criteria",
+      "suggestion": "Remove or reconcile the conflicting success criteria regarding response length"
+    },
+    {
+      "issue": "Unclear example purpose",
+      "suggestion": "Clarify how the example of explaining benefits of 8 hours of sleep relates to the overall task"
+    },
+    {
+      "issue": "Inconsistent success criteria formatting",
+      "suggestion": "Combine duplicate success criteria into a single statement or rephrase for clarity"
+    }
+  ],
+  "prompt3.txt": [
+    {
+      "issue": "Lack of specificity",
+      "suggestion": "Define the scope of the explanation, e.g., focus on the technical or user aspects of an ATM"
+    },
+    {
+      "issue": "Vagueness in success criteria",
+      "suggestion": "Quantify the clarity of steps, e.g., 'Must describe the steps in 5 concise points'"
+    },
+    {
+      "issue": "Limited examples",
+      "suggestion": "Provide additional examples, e.g., 'A customer depositing money, checking balance, or transferring funds'"
+    },
+    {
+      "issue": "No clear constraints",
+      "suggestion": "Specify any constraints, e.g., 'Assume the ATM is a standard bank ATM, not a cryptocurrency ATM'"
+    },
+    {
+      "issue": "No clear audience",
+      "suggestion": "Define the target audience, e.g., 'Explain to a general audience with basic technical knowledge'"
+    }
+  ],
+  "prompt4.txt": [
+    {
+      "issue": "Includes personal contact information",
+      "suggestion": "Remove personal contact information for privacy and security reasons"
+    },
+    {
+      "issue": "Lacks specific meeting details",
+      "suggestion": "Add meeting date, time, location, and purpose to the email draft"
+    },
+    {
+      "issue": "Does not provide a clear call to action",
+      "suggestion": "Specify how team members should respond to the meeting invitation"
+    },
+    {
+      "issue": "Examples are not clearly defined",
+      "suggestion": "Provide a clear and concise example of a meeting invitation email that meets the success criteria"
+    }
+  ]
+}

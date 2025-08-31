@@ -1,0 +1,4 @@
+Task: Write a blog about the importance of sleep.
+Success Criteria: The blog must be exactly 3000 words long.
+Success Criteria: Keep the response very short and concise.
+Examples: Explain benefits of 8 hours of sleep.

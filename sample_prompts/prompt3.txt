@@ -1,0 +1,3 @@
+Task: Explain how an ATM works.
+Success Criteria: Must describe the steps clearly.
+Examples: A customer withdrawing money.
